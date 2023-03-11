@@ -32,41 +32,219 @@
 
 
   <div class="container-fluid">
-    <div class="row">
+    <div class="row ">
       <div class="col-12  col-lg-6 backg">
         <h1>تجربه زنگی راحت تر , سریع تر و به صرفه تر با سوپر اپلیکیشن اسنپ</h1>
         <p>از درخواست خودرو گرفته تا سفارش غذا، خرید سوپرمارکتی، خرید بلیط سفر، مشاوره‌ی پزشکی و روانشناسی، رزرو هتل
           و... را میتوانید با سوپراپلیکیشن اسنپ انجام دهید.</p>
-        <input type="text" placeholder="987******09">
-        <button>ارسال لینک</button>
-        <br>
-        <button class="mt-4">ورود به اپلیکشن اسنپ</button>
+        <input type="text" placeholder="987******09" id="input-first" class="w-25">
+
+        <button type="button" onclick="send()" class="w-25"> <span>ارسال لینک</span> </button>
+        <button id="msg" style="display: none" class="w-25">
+          <span>لینک دانلود به شماره وارد شده ارسال میشود</span>
+
+        </button>
       </div>
-      <div class="col-12 col-lg-6 order-first "><img src="./images/1.b.jpg" alt="" class="w-100">
+      <div class="col-12 col-lg-6 order-first "><img src="./images/1.b.jpg" alt="" class="w-100 ">
         <img src="" alt="">
       </div>
 
     </div>
   </div>
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-12  d-flex flex-row justify-content-evenly  flex-wrap mt-3 mb-3 ">
+        
+        <a href="" class=" ">
+          <img src="./images/direct-download-badge.png" alt="" class="photo" >
+        </a>
+        <a href="" class=" ">
+          <img src="./images/bazaar.png" alt="" class="photo" >
+        </a>
+        <a href="" class=" ">
+          <img src="./images/snapp-pwa.png" alt="" class="photo" >
+        </a>
+        <a href="" class=" ">
+          <img src="./images/sibapp-badge-white.png" alt="" class="photo" >
+        </a>
+        <a href="" class=" ">
+          <img src="./images/iappsbadge.webp" alt="" class="photo" >
+        </a>
+      </div>
+    </div>
+  </div>
 
 
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-12 box  ">
-        <a href="" class="d-flex">
+    <div class="row background">
+      <div class="col-12 box d-flex flex-row justify-content-center  flex-wrap mt-3 ">
+        
+        <a href="" class="col-4 d-flex ms-2">
           <img src="./images/cab.svg" alt="" class="imgg">
           <div>
             <h3 class=" text-center fs-5">تاکسی اینترنتی</h3>
             <p>امکان درخواست آنلاین خودرو با اسنپ</p>
           </div>
         </a>
+
+        <a href="" class="col-4 d-flex ms-2">
+          <img src="./images/bike.svg" alt="" class="imgg">
+          <div>
+            <h3 class=" text-center fs-5">پیک موتوری </h3>
+            <p>حمل و نقل با اسنپ</p>
+          </div>
+        </a>
+        <a href="" class="  col-4 d-flex">
+          <img src="./images/Pickup-new.png" alt="" class="imgg">
+          <div>
+            <h3 class=" text-center fs-5">در خواست وانت</h3>
+            <p>حمل و نقل با اسنپ</p>
+          </div>
+        </a>
       </div>
+      <div class="col-12 box d-flex flex-row justify-content-center  flex-wrap mt-3 ">
+        
+        <a href="" class="col-4 d-flex ms-2">
+          <img src="./images/food.svg" alt="" class="imgg">
+          <div>
+            <h3 class=" text-center fs-5">سفارش آنلاین غذا</h3>
+            <p>  سفارش غذا , نان و شیرینی با اسنپ</p>
+          </div>
+        </a>
+
+        <a href="" class="col-4 d-flex ms-2">
+          <img src="./images/market.svg" alt="" class="imgg">
+          <div>
+            <h3 class=" text-center fs-5">سوپر مارکت آنلاین  </h3>
+            <p>تهیه اقلام روزانه با اسنپ</p>
+          </div>
+        </a>
+        <a href="" class="  col-4 d-flex">
+          <img src="./images/market.svg" alt="" class="imgg">
+          <div>
+            <h3 class=" text-center fs-5">اسنپ اکسپرس</h3>
+            <p>تحویل کتر از 30  دقیقه</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 box d-flex flex-row justify-content-center  flex-wrap mt-3 ">
+        
+        <a href="" class="col-4 d-flex ms-2">
+          <img src="./images/Domestic Trip.png" alt="" class="imgg">
+          <div>
+            <h3 class=" text-center fs-5">بلیط پرواز داخلی </h3>
+            <p>  گردشگری با اسنپ</p>
+          </div>
+        </a>
+
+        <a href="" class="col-4 d-flex ms-2">
+          <img src="./images/Domestic Trip.png" alt="" class="imgg">
+          <div>
+            <h3 class=" text-center fs-5">بلیط پرواز خارجی </h3>
+            <p>  گردشگری با اسنپ</p>
+          </div>
+        </a>
+        <a href="" class="  col-4 d-flex">
+          <img src="./images/doctor.svg" alt="" class="imgg">
+          <div>
+            <h3 class=" text-center fs-5">دکتر</h3>
+            <p> درمان با اسنپ</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 box d-flex flex-row justify-content-center  flex-wrap mt-3 ">
+        
+        <a href="" class="col-4 d-flex ms-2">
+          <img src="./images/hotel.png" alt="" class="imgg">
+          <div>
+            <h3 class=" text-center fs-5">  رزرو هتل</h3>
+            <p>  گردشگری با اسنپ</p>
+          </div>
+        </a>
+
+        <a href="" class="col-4 d-flex ms-2">
+          <img src="./images/trip.svg" alt="" class="imgg">
+          <div>
+            <h3 class=" text-center fs-5">رزروه اقامتگاه </h3>
+            <p>  گردشگری با اسنپ</p>
+          </div>
+        </a>
+        <a href="" class="  col-4 d-flex">
+          <img src="./images/new Shop.png" alt="" class="imgg">
+          <div>
+            <h3 class=" text-center fs-5">فروشگاه</h3>
+            <p>خرید از فروشگاه های معتبر</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 box d-flex flex-row justify-content-center  flex-wrap mt-3 ">
+        
+        <a href="" class="col-4 d-flex ms-2">
+          <img src="./images/bus.png" alt="" class="imgg">
+          <div>
+            <h3 class=" text-center fs-5">   بلیط اتوبوس</h3>
+            <p>  گردشگری با اسنپ</p>
+          </div>
+        </a>
+
+        <a href="" class="col-4 d-flex ms-2">
+          <img src="./images/train.png" alt="" class="imgg">
+          <div>
+            <h3 class=" text-center fs-5"> بلیط قطار </h3>
+            <p>  گردشگری با اسنپ</p>
+          </div>
+        </a>
+        <a href="" class="  col-4 d-flex">
+          <img src="./images/club.svg" alt="" class="imgg">
+          <div>
+            <h3 class=" text-center fs-5">اسنپ! کلاپ</h3>
+            <p>باشگاه مشتریان اسنپ</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 box d-flex flex-row justify-content-center  flex-wrap mt-3 ">
+        
+        <a href="" class="col-4 d-flex ms-2">
+          <img src="./images/Service Icon.png" alt="" class="imgg">
+          <div>
+            <h3 class=" text-center fs-5"> سرمایه گذاری</h3>
+            <p>  خدمات غیر حضوری بورس و سرمایه گذاری</p>
+          </div>
+        </a>
+
+        <a href="" class="col-4 d-flex ms-2">
+          <img src="./images/Moving.png" alt="" class="imgg">
+          <div>
+            <h3 class=" text-center fs-5">  اسباب کشی </h3>
+            <p>   حمل و نقل با اسنپ </p>
+          </div>
+        </a>
+        <a href="" class="  col-4 d-flex">
+          <img src="./images/pay.svg" alt="" class="imgg">
+          <div>
+            <h3 class=" text-center fs-5">سرویس اعتباری </h3>
+            <p>پرداخت با اسنپ</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 box d-flex flex-row justify-content-center  flex-wrap mt-3 ">
+        
+        <a href="" class="col-4 d-flex ms-2">
+          <img src="./images/ticket-icon.svg" alt="" class="imgg">
+          <div>
+            <h3 class=" text-center fs-5">اسنپ تیکت</h3>
+            <p> خرید آنلاین تیکت با اسنپ</p>
+          </div>
+        </a>
     </div>
 
   </div>
-
-
-
+  <div class="container-fluid">
+    <div class="row  ">
+      <div class="col-12  mt-5 ">
+<a href="#" class="food-background d-block "></a>
+      </div>
+      </div></div>
 
 
 
