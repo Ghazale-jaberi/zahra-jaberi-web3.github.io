@@ -19,3 +19,9 @@ function send() {
   console.log("aaaaaa");
   console.log(f);
   f.remove()};
+
+  const btn = document.querySelector(".btn");
+  const div = document.querySelector(".hide_list");
+  btn.addEventListener("click", function () {
+    hide_list.classList.toggle("hide_box");
+  });
