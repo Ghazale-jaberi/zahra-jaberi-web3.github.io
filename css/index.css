@@ -1,6 +1,9 @@
 body{
   direction: rtl;
+  font-family:  sans-serif;
+
 }
+
 
 @media all and (max-width:991px) {
   .nav {
@@ -107,13 +110,114 @@ body{
 
   .img_snapp{
     display: none;
-
-
+  }
+  .imgg{
+    width: 30px;
+    height: 30px;
+    display: block;
+   margin-top: 5px;
   }
   
+  .height-one{
+    height: 200px;
+  }
   
+  .box a{
+    width: 119px;
+    height: 53px;
+  background-color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 15px;
+  }
+  .box h3{
+    font-size: 12px;
+    font-weight: 500;
+    color: #4b4b4b;
+  }
+  .box p{
+    font-size: 10px;
+    color: #4b4b4b;
+  }
+  #btn1{
+    width: 120px;
+    height: 30px;
+    border: 1px solid #21aa58;
+    background-color: white;
+    display: block;
+    position: relative;
+  margin-right: 34%;
+    
+    }
+    .custom-hite{
+  height: 200px;
+  overflow: hidden;
+}
+.food-background {
+  display: none;
+ }
+
+
+
+ .option img{
+  width: 180px;
+  height: 180px;
+  
+}
+.option p{
+  width: 200px;
+  height: 20px;
+  text-align: center;
+}
+
+.option{
+  display: block;
+  width: 310px;
+  height: 310px;
+  background-color: #f2f5f8;
+border-radius: 30px;
+ margin: auto;
+ margin-top: 90px;
+  
+}
+.text-center {
+  margin-top: 40px;
+  }
  
 }
+
+
+@media all and (max-width:490px) {
+
+  .box a{
+    width: 98px;
+    height: 48px;
+  background-color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 15px;
+  }
+  .box h3{
+    font-size: 10px;
+    font-weight: 500;
+    color: #4b4b4b;
+  }
+  .box p{
+    font-size: 7px;
+    color: #4b4b4b;
+  }
+  .food-background {
+    width: 50%;
+    height: 130px;
+    background-image: url(../images/Food.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   margin-right: 70px;
+  } 
+
+}
+
 
 @media all and (min-width:992px) {
  
@@ -183,63 +287,35 @@ body{
   .icon {
     display: none;
   }
-  .hide_box{
-    overflow: hidden;
-    height: 0;
-    }
-
-}
-
-
-.back1{
-background-image: url(../images/1.b.jpg);
-width: 50%;
-height: 450px;
-border: 1px solid palevioletred;
-background-size: cover;
-}
-
-.backg{
-
-  background-color: #21aa58;
-  border-radius: 5px;
-}
-
-.imgg{
-  width: 62px;
-  height: 62px;
-  display: block;
- margin-top: 5px;
-}
-
-
-
-.box a{
-  width: 265px;
-  height: 73px;
-background-color: white;
-  border-radius: 15px;
-  text-decoration: none;
-  margin-top: 15px;
-  margin-right: 60px;
-}
-
-.background{
-height: 100%;
-  background-color: #f2f5f8;
-}
-.box h3{
-  font-size: 16px;
-  color: #4b4b4b;
-}
-.box p{
-  font-size: 14px;
-  color: #b8b8b8;
-}
-
-.photo{
-  width: 120px;
-  height: 40px;
+  .imgg{
+    width: 62px;
+    height: 62px;
+    display: block;
+   margin-top: 5px;
+  }
+  
+  
+  
+  .box a{
+    width: 265px;
+    height: 73px;
+  background-color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-right: 60px;
+  }
+  .box h3{
+    font-size: 16px;
+    color: #4b4b4b;
+  }
+  .box p{
+    font-size: 14px;
+    color: #b8b8b8;
+  }
+.custom-hite{
+  height: 360px;
+  overflow: hidden;
 }
 
 .food-background {
@@ -251,7 +327,6 @@ height: 100%;
   background-size: cover;
  margin-right: 120px;
 }
-
 .option img{
   width: 200px;
   height: 200px;
@@ -271,6 +346,45 @@ height: 100%;
   margin-top: -50px;
   
 }
+
+}
+
+
+.back1{
+background-image: url(../images/1.b.jpg);
+width: 50%;
+height: 450px;
+border: 1px solid palevioletred;
+background-size: cover;
+}
+
+.backg{
+
+  background-color: #21aa58;
+ 
+}
+
+
+
+
+
+
+
+.background{
+ 
+height: 100%;
+  background-color: #f2f5f8;
+}
+
+
+.photo{
+  width: 120px;
+  height: 40px;
+}
+
+
+
+
 .box3 {
   width: 100%;
   height: 800px;
@@ -282,6 +396,27 @@ height: 100%;
   width: 100%;
   height: 400px;
 }
+
+.box3 h2{
+font-weight: 800;
+color: #404040;
+}
+.butten-st{
+  display: block;
+  width: 180px;
+  height: 55px;
+  background-color: #00d170;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+font-weight: 400;
+}
+
+.butten-st h4{
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
 .foother{
   width: 100%;
   background-color: white;
@@ -300,9 +435,13 @@ height: 100%;
   padding-bottom: 40px;
 }
 
+.foother img{
+  width: 80px;
+  height: 80px;
+}
 .foother-icon svg{
   width: 81px;
-  margin-left: 10px;
+
   color: black;
   margin-top: 15px;
 }
@@ -324,3 +463,20 @@ height: 100%;
   margin-right: 5px;
   margin-top: -66px;
  }
+
+ 
+  .hidden{
+    display: none;
+}
+
+.blockk{
+  display: block;
+}
+
+.tazmini{
+  margin-top: -50px;
+  padding-bottom: 10px;
+}
+
+
+

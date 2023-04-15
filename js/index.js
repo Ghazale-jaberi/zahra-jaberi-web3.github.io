@@ -20,8 +20,17 @@ function send() {
   console.log(f);
   f.remove()};
 
-  const btn = document.querySelector(".btn");
-  const div = document.querySelector(".hide_list");
-  btn.addEventListener("click", function () {
-    hide_list.classList.toggle("hide_box");
-  });
+ let myDiv=document.getElementById("test");
+function toggelp(){
+    myDiv.classList.toggle("hidden")
+    
+}
+
+let button = document.getElementById("btn");
+let colll = document.getElementById("colll");
+
+
+
+btn.addEventListener("click", function () {
+  colll.classList.toggle("custom-hite");
+});
