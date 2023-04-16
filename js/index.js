@@ -30,7 +30,12 @@ let button = document.getElementById("btn");
 let colll = document.getElementById("colll");
 
 
-
+ /*
 btn.addEventListener("click", function () {
   colll.classList.toggle("custom-hite");
+});*/
+
+const hidBox = document.querySelector(".shide");
+btn.addEventListener("click", function () {
+  hidBox.classList.toggle("blockDis");
 });

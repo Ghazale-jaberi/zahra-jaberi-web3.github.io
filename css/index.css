@@ -146,13 +146,14 @@ body{
     background-color: white;
     display: block;
     position: relative;
-  margin-right: 34%;
+  margin-right: 37%;
     
     }
+    /*
     .custom-hite{
   height: 200px;
   overflow: hidden;
-}
+}*/
 .food-background {
   display: none;
  }
@@ -183,7 +184,26 @@ border-radius: 30px;
 .text-center {
   margin-top: 40px;
   }
+
+  .shide{
+    display: none;
+  }
+
+  .tazmini img{
+    width: 60px;
+    height: 40px;
+  }
+
+  .tazmini p{
+    font-size: 12px;
+    font-weight: 700;
+  }
  
+.box{
+
+  margin-right: 30px;
+}
+
 }
 
 
@@ -215,7 +235,10 @@ border-radius: 30px;
     background-size: cover;
    margin-right: 70px;
   } 
+  .box{
 
+    margin-right: 9px;
+  }
 }
 
 
@@ -313,10 +336,11 @@ border-radius: 30px;
     font-size: 14px;
     color: #b8b8b8;
   }
+  /*
 .custom-hite{
   height: 360px;
   overflow: hidden;
-}
+}*/
 
 .food-background {
   width: 70%;
@@ -478,5 +502,7 @@ font-weight: 400;
   padding-bottom: 10px;
 }
 
-
+.blockDis{
+  display: flex;
+}
 
